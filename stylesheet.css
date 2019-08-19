@@ -1,0 +1,477 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+	margin: 0;
+}
+
+body {
+	background: url("images/backgroundPattern.png");
+}
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.showHide {
+	display: block;
+    position: relative;
+    top: 0;
+    left: calc(100% - 25px);
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+
+.navContainer {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	background-color: #002c5a;
+	min-width: 200px;
+	max-width: 250px;
+}
+
+.navProfile {
+	display: block;
+	width: 100%;
+	height: fit-content;
+	height: -moz-fit-content;
+	margin-bottom: 20px;
+}
+
+.editProfile {
+	display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.editProfile:hover {
+	text-decoration: underline;
+}
+
+.navProfile img {
+	display: block;
+    width: 90%;
+    height: auto;
+    max-height: 250px;
+    max-width: 250px;
+    margin: 5% auto 0;
+    border-radius: 50%;
+}
+
+.navLinks {
+	display: block;
+	width: 100%;
+	height: 45%;
+}
+
+.navButton {
+	display: block;
+	width: 100%;
+	height: 30px;
+	color: white;
+	background-color: #002c5a;
+	line-height: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 15pt;
+	border-bottom: 1px solid #0094c4;
+}
+
+.navButtonText {
+	margin-left: 10px;
+	vertical-align: text-bottom;
+}
+
+.navButton:hover {
+	background-color: white;
+	color: #002c5a;
+}
+
+.iconCourses {
+	background-image: url(/images/homeIcon.png);
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+}
+
+.navOtherLinks {
+	display: block;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    position: absolute;
+}
+
+.pageContainer {
+	width: 100%;
+}
+
+.loginContainer {
+	display: inline-block;
+	width: 25%;
+	margin: 6% 7.5% auto 17.5%;
+	background-color: white;
+}
+
+.registerContainer {
+	display: inline-block;
+	width: 25%;
+	margin: 6% 17.5% auto 7.5%;
+	background-color: white;
+}
+
+.landingHeader {
+	text-align: center;
+	font-family: Gilroy-ExtraBold;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
+	color: #002c5a;
+    background: rgba(0,44,90, 0.2);
+}
+
+#login, #register {
+	padding-top: 10px;
+	height: 400px;
+}
+
+#login input, #register input {
+	display: block;
+	margin: 10px auto;
+	width: 90%;
+	height: 30px;
+}
+
+.bgDark {
+	margin-top: -5px;
+    background: #002c5a;
+}
+
+.submitButton {
+	display: block;
+	position: relative;
+	bottom: 0;
+	font-weight: bold;
+	font-size: 16pt;
+	color: white;
+	margin: 10px auto 5px;
+	background: #0094c4;
+	border: none;
+	height: 40px;
+    width: 91%;
+}
+
+.submitButton:hover {
+	cursor: pointer;
+	background-color: white;
+	color: #0094c4;
+}
+
+#login .submitButton {
+	position: relative;
+	bottom: -245px;
+}
+
+#register .submitButton {
+	position: relative;
+	bottom: -15px;
+}
+
+.logoContainer {
+	display: inline-block;
+    background: rgba(0,44,90, 0.1);
+    width: 250px;
+    height: 68px;
+}
+
+.logoContainer img {
+	margin: auto;
+}
+
+.landingBanner {
+	background: white;
+}
+
+.titleContainer {
+	display: inline-block;
+    background: #002c5a;
+    width: calc(100% - 250px);
+    height: 68px;
+	color: white;
+	text-align: center;
+}
+
+.titleContainer h1 {
+	margin: auto;
+    line-height: 68px;
+}
+
+.footer {
+	display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: #002c5a;
+    height: 68px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 68px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.topHeader {
+	background: #002c5a;
+	height: 50px;
+}
+
+.topHeader img {
+	display: none;
+}
+
+.topHeader h1 {
+	display: inline-block;
+	height: 50px;
+	width: 100%;
+	margin: 0;
+	color: white;
+}
+
+.assignment {
+	display: inline-block;
+	width: 60%;
+}
+
+.quickLinks {
+	display: inline-block;
+    width: 20%;
+    float: right;
+	border: 1px solid #002c5a;
+    margin: 40px 20px 0 0;
+	background: white;
+}
+
+.quickLinksTitle {
+	text-align: center;
+    background: rgba(0,44,90, 1.0);
+    color: white;
+    line-height: 50px;
+    height: 50px;
+    margin: 0;
+}
+
+.quickLinksHeadings {
+	background: rgba(0,44,90, 0.2);
+    color: rgb(0,44,90);
+    text-align: center;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+.quickLink {
+	display: block;
+    text-decoration: none;
+    height: fit-content;
+	height: -moz-fit-content;
+    line-height: 30px;
+    color: rgb(0,44,90);
+    background: rgba(0,44,90, 0.1);
+    width: 90%;
+    padding: 0 5%;
+    text-align: center;
+}
+
+.quickLink:hover {
+	color: white;
+    background: rgb(0,44,90);
+}
+
+.assignment h1 {
+	text-align: center;
+}
+
+.page {
+	display: inline-block;
+	width: 80%;
+    float: right;
+    min-width: calc(100% - 250px);
+    max-width: calc(100% - 200px);
+}
+
+.content {
+	margin: auto 5px;
+    width: calc(100% - 5px);
+}
+
+.submissionSubmit {
+	display: block;
+    width: 150px;
+    height: 50px;
+    background: #0094c4;
+    border: none;
+    font-weight: bold;
+    float: right;
+    margin: 40px 20px;
+	color: white;
+    font-size: 11pt;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center
+}
+
+.submissionSubmit:hover {
+	background-color: white;
+	color: #0094c4;
+}
+
+.portBanner {
+    height: 200px;
+    background: #0094c4;
+	background-size: cover;
+    background-position: bottom;
+}
+
+.portBannerImg {
+    height: 190px;
+    width: 190px;
+    background: white;
+    border-radius: 190px;
+    margin: 5px;
+}
+
+.studentInfo {
+    display: inline-block;
+}
+
+form.portRequest {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    width: 20%;
+}
+
+.portRequest input[type="button"] {
+    display: block;
+    height: 40%;
+    width: 90%;
+    margin: 5% 2.5%;
+}
+
+.portStudentInfo {
+    height: 150px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+	border-radius: 100px;
+}
+
+.f {
+    background: red;
+}
+
+.t {
+    background: green;
+}
+
+.skillHolder {
+	display: inline-block;
+	width: 25%;
+}
+
+.portExperience {
+    width: 75%;
+    display: inline-block;
+}
+
+.acceptingWork {
+    width: 10%;
+    display: inline-block;
+    float: right;
+    background: green;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.projectThumb {
+    margin: auto 5%;
+    width: 15%;
+    background: black;
+    padding-top: 15%;
+    border-radius: 200px;
+    display: inline-block;
+}
+
+.portProjects {
+    height: 200px;
+    margin: 50px auto;
+}
+
+form#editStudent {
+    width: calc(100% - 12px);
+    background: lightblue;
+    padding: 5px;
+    height: 400px;
+}
+
+.editInfo {
+    display: inline-block;
+    width: 30%;
+}
+
+.aboutMe {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+}
+
+textarea#aboutMe {
+    width: 95%;
+    height: 300px;
+    resize: none;
+}
+
+.editInfo input {
+    height: 25px;
+}
+
+form.editWork {
+    display: inline-block;
+    width: 40%;
+    background: lightblue;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 20%;
+}
+
+.subDetails {
+	display: none;
+}
+
+.subDetails.open {
+	display: block;
+}
